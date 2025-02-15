@@ -1,0 +1,7 @@
+.list1{
+    @apply  list-none text-white text-xl font-bold mx-4
+}
+
+.img{
+    @apply  text-white  mx-2;
+}

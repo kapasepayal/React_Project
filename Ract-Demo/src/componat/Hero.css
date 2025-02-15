@@ -1,0 +1,87 @@
+.Hbtn{
+  @apply  text-xl rounded-full text-white bg-violet-900 px-4 py-2 mt-4 font-serif font-bold ml-3 hover:bg-gray-900
+  
+}
+.vid{
+    @apply text-violet-950 font-bold hover:border-2 p-2 m-2 text-2xl font-serif cursor-pointer border border-gray-300 shadow-lg shadow-stone-500/5
+    hover:bg-violet-900 hover:text-white
+}
+
+.one{
+  @apply  text-2xl  font-serif  font-bold  border-gray-400  border-r-2   px-20  bg-gray-300  pt-1  cursor-pointer hover:bg-white
+}
+
+.active-con{
+  display: block;
+  /* @apply   text-violet-900 pt-8  text-6xl */
+}
+
+.tabs{
+  @apply text-2xl  font-serif  font-bold  border-gray-400  border-r-2  px-[5.09rem]  bg-gray-300  pt-1  cursor-pointer
+}
+
+.con{
+  display: none;
+ 
+}
+
+.active-box1{
+    display: none; 
+    /* @apply bg-white border-2  border-stone-700 w-[20.4rem] h-dvh text-center pt-1 mr-2  mt-1  */
+}
+
+.box1{
+  display: block;
+  @apply bg-white border-2  border-stone-700 w-[20.4rem] h-dvh text-center pt-1 mr-2  mt-1 
+}
+
+.active-tabs{
+ @apply  text-3xl text-violet-900 font-serif  font-bold  border-gray-400  border-2 px-[5.09rem] border-b-stone-50 h-10   bg-white  pt-1  cursor-pointer
+  
+}
+
+.show{
+  animation: typing 3s  forwards ;
+}
+.runing{
+  animation: run 2s forwards;
+}
+
+.backflow{
+  animation: return 2s backwards;
+}
+
+@keyframes typing{
+
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 20.4rem;
+  }
+}
+
+@keyframes return{
+
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(300px);
+  }
+}
+@keyframes run{
+
+  0%{
+    /* top: 50%; */
+    transform: scale(0.5);
+  }
+  100%{
+    /* top:68px; */
+    transform: scale(1);
+  }
+}
+
+.back{
+  @apply  ml-3 h-1/2  flex justify-center  bg-black
+}
