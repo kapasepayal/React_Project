@@ -32,6 +32,7 @@ function App() {
         <button className="border-2 rounded-md bg-blue-600 p-2 text-white mx-5"
           onClick={() => changeColor(3)} >blue</button>
       </div>
+      {/* <div>show</div> */}
     </div>
   )
 }
