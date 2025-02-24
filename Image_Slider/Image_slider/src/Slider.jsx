@@ -19,8 +19,6 @@ function Slider({ data }) {
         }
     }
 
-
-
     return (
 
         <div className=" flex justify-center mt-48 mx-40">
