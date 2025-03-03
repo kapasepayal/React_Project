@@ -31,7 +31,7 @@ export default function App() {
     })
 
     console.log("filteredItem ==============> ", filteredItem);
-    setFilteredData(filteredItem);
+    setFilteredData(filteredItem.slice(0,10));
     
   },[data,search])
 
